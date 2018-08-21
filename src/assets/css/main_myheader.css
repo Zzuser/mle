@@ -1,0 +1,46 @@
+.el-row {
+  margin-bottom: 20px;
+}
+
+.el-row .el-col {
+  border-radius: 4px;
+}
+
+.el-row .el-col * {
+  vertical-align: middle;
+}
+
+.el-row .el-col i {
+  font-size: 20px;
+  color: white;
+}
+
+.el-row #p1 {
+}
+
+.el-row #p1 img {
+  width: 120px;
+}
+
+.el-row #p2 .el-menu-item {
+  width: 130px;
+  font-size: 16px;
+}
+.el-row #p3 div :first-child{
+  margin-right: 20px;
+}
+.el-row #p3 a,span,#p4 a,span{
+  font-size: 14px;
+  color: white;
+  text-decoration:none;
+}
+
+/*.el-row #p4 a,span{*/
+  /*color: white;*/
+  /*text-decoration:none;*/
+/*}*/
+
+.row-bg {
+  padding: 0;
+  background-color: #1e89e0;
+}

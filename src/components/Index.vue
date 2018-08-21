@@ -54,7 +54,6 @@
         </div>
       </el-main>
       <el-footer>我要开店 | 联系我们 | 服务条款和协议 | 营业执照 | 加入我们 | 蜂鸟配送 | 失信人员查询<br>
-
         互联网药品信息服务资格证书:(沪)-经营性-2016-0011 | 增值电信业务许可证 : 沪B2-20150033 | 沪ICP备 09007032 | 上海工商行政管理 Copyright ©2008-2018
         上海拉扎斯信息科技有限公司, All Rights Reserved.<br>
         <img style="width: 70px" src="../assets/img/picp_bg.e373b3.jpg"/>
