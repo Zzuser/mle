@@ -1,0 +1,151 @@
+/*上部蓝色区域*/
+
+.el-header {
+  background-color: #1e89e0;
+  color: #333;
+  text-align: center;
+  /*line-height: 500px;*/
+}
+.el-header .el-row{
+  margin-top: 40px;
+}
+.el-header .el-row *{
+  vertical-align: middle;
+}
+.el-header .el-row #index_left_top_col{
+  text-align: left;
+}
+.el-header .el-row #index_left_top{
+  width: 270px;
+  height: auto;
+  text-align: left;
+  margin-left: 30px;
+  padding-top: 5px;
+}
+.el-header .el-row #index_right_top_col{
+  vertical-align: middle;
+  text-align: right;
+}
+.el-header .el-row #index_right_top_col #signIn_signUp{
+  margin-right: 30px;
+}
+.el-header .el-row #index_right_top_col #signIn_signUp a,span{
+  color: white;
+  text-decoration:none;
+}
+.el-header .el-row #index_right_top_col #signIn_signUp .el-button{
+  margin-left: 10px;
+}
+
+.el-header #center_logo{
+  width: 320px;
+  height: auto;
+  margin-top: 135px;
+}
+.el-header #middle{
+  margin-top: 85px;
+
+}
+.el-header #middle *{
+  vertical-align: middle;
+}
+
+.el-header #search
+{
+  width: fit-content;
+  height: 56px;
+  background: white;
+  display: inline-block;
+}
+.el-header #search *{
+  vertical-align: middle;
+}
+.el-header #search .el-dropdown{
+  background: white;
+  height: 56px;
+  width: 100px;
+  line-height: 56px;
+
+}
+.el-header #search #line{
+  display: inline-block;
+  width: 0;
+  height: 40px;
+  border-left: 1px solid #cccfd6;
+}
+.el-header #search .el-dropdown .el-dropdown-link{
+  color: black;
+  font-size: 18px;
+  font-family: "Microsoft YaHei UI",serif;
+  text-indent: 5px;
+  background: white;
+  height: 56px;
+}
+.el-header #search input{
+  width: 400px;
+  height: 56px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.el-header #searchButton{
+  width: 128px;
+  height: 56px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: red;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+/*中部二维码区域*/
+.el-main {
+  color: #333;
+  text-align: center;
+}
+.el-main > * {
+  vertical-align: middle;
+}
+.el-main div {
+  display: inline-block;
+  margin-top: 40px;
+}
+.el-main #app_img {
+  width: 205px;
+  text-align: center;
+}
+.el-main #app_img img {
+  border: 1px solid #cdcdcd;
+  padding-left: 2px;
+  width: 170px;
+  vertical-align: middle;
+}
+.el-main #app_text {
+  height: 220px;
+  line-height: 50px;
+  text-align: left;
+  margin-left: 30px;
+  display: inline-block;
+}
+.el-main #app_text .normal {
+  line-height: 60px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei UI", serif;
+  color: #929292;
+}
+.el-main #app_text .not_normal {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}
+/*下部区域*/
+.el-footer {
+  font-size: 12px;
+  font-family: "Microsoft YaHei UI", serif;
+  color: #929292;
+  text-align: center;
+  margin-top: 40px;
+  line-height: 30px;
+}
