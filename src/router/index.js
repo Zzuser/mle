@@ -10,6 +10,8 @@ import MyOrder from '@/components/structure/MyOrder'
 import Join from '@/components/structure/Join'
 import MyHelp from '@/components/structure/MyHelp'
 
+import Login from '@/components/Login'
+
 Vue.use(Router);
 
 export default new Router({
@@ -18,6 +20,11 @@ export default new Router({
       path: '/',
       name: 'Index',
       component: Index
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
     },
     {
       path: '/main',

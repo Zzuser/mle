@@ -11,9 +11,9 @@
           </el-col>
           <el-col id="index_right_top_col" :span="12">
             <div id="signIn_signUp">
-              <a href="#">登录</a>
+              <router-link to="/login">登录</router-link>
               <span style="margin: 0 10px">|</span>
-              <a href="#">注册</a>
+              <router-link to="/login">注册</router-link>
               <el-button type="success">我要开店</el-button>
             </div>
           </el-col>
@@ -38,7 +38,7 @@
             <span id="line"></span>
             <input type="text" class="el-input" placeholder="请输入您的收货地址（小区，学校或街道）">
           </div>
-          <button id="searchButton">搜索</button>
+          <button id="searchButton" @click="goto">搜索</button>
         </div>
       </el-header>
       <el-main height="300px">
@@ -68,6 +68,11 @@
     data() {
       return {
         msg: 'Welcome to Your Vue.js App'
+      }
+    },
+    methods:{
+      goto:function () {
+        this.$router.push("/main")
       }
     }
   }
