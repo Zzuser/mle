@@ -6,15 +6,11 @@
 }
 
 .el-main {
-  background-color: #E9EEF3;
-  color: #333;
-  text-align: center;
-  line-height: 500px;
+  background-color: #fff;
+  padding: 10px 25px;
+
 }
 
 .el-footer {
-  background-color: #B3C0D1;
-  color: #333;
-  text-align: center;
-  line-height: 60px;
+  background-color: #fff;
 }

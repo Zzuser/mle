@@ -8,3 +8,8 @@ a {
   color: #1e89e0;
   text-decoration: none;
 }
+
+.subtext{
+  font-size: small;
+  color: #6f7180;
+}

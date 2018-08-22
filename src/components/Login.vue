@@ -12,7 +12,7 @@
         </el-menu>
       </span>
       <br/>
-      <template  v-if="loginType">
+      <template style="background: blue" v-if="loginType==1">
       <el-input type="text" placeholder="请输入手机号" class="login-input">
         <a slot="suffix" href="#">获取验证码</a>
       </el-input>
@@ -24,6 +24,9 @@
         <a href="#">《用户服务协议》</a>
       </span><br/>
       <el-button type="success">登录</el-button>
+      </template>
+      <template v-if="loginType==2">
+        <img id="loginImg" src="../assets/img/erweima.png"/>
       </template>
       <br/>
       <span id="footer">
@@ -45,7 +48,7 @@
     },
     methods: {
       handleSelect(key, keyPath) {
-        console.log(key, keyPath);
+       this.loginType=key;
       }
     }
   }
@@ -103,6 +106,9 @@
   #Login p .el-button {
     width: 300px;
     height: 42px;
+  }
+  #Login #loginImg{
+    width: 210px;
   }
 
   #footer {

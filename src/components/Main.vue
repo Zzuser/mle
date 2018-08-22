@@ -2,7 +2,7 @@
     <div id="Main">
       <el-container>
         <el-header height="60px"><router-view name="MyHeader"/></el-header>
-        <el-main height="500px"><router-view name="MyMain"/></el-main>
+        <el-main height="700px"><router-view name="MyMain"/></el-main>
         <el-footer><router-view name="MyFooter"/></el-footer>
       </el-container>
     </div>
