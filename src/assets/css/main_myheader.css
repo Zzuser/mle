@@ -40,6 +40,10 @@
   /*text-decoration:none;*/
 /*}*/
 
+.el-menu-item.is-active {
+  background-color: rgb(24, 110, 179) !important;
+}
+
 .row-bg {
   padding: 0;
   background-color: #1e89e0;

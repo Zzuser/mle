@@ -16,8 +16,6 @@
         </div>
       </el-card>
     </div>
-
-
     <div id="location">
       <el-row :gutter="20">
         <el-col :span="18">
@@ -51,21 +49,10 @@
       </el-card>
     </div>
     <div id="shops">
-      <el-card class="box-card">
+      <el-card id="shopsCard" class="box-card">
         <el-row>
           <el-col :span="6" v-for="o in 28" :key="o">
-
-            <el-card :body-style="{ padding: '0px' }">
-              <img src="../../assets/img/hamburger.png" class="image">
-              <div style="padding: 14px;">
-                <span>好吃的汉堡</span>
-                <div class="bottom clearfix">
-                  <time class="time subtext">{{ currentDate }}</time>
-                  <el-button type="text" class="button">操作按钮</el-button>
-                </div>
-              </div>
-            </el-card>
-
+            <shop-card></shop-card>
           </el-col>
         </el-row>
       </el-card>
@@ -75,13 +62,12 @@
 </template>
 
 <script>
+  import ShopCard from './ShopCard'
   export default {
     name: "MyMain",
-    data() {
-      return {
-        currentDate: new Date().toLocaleString()
-      };
-    }
+    components:{
+      'shop-card':ShopCard
+    },
   }
 </script>
 <style>
@@ -137,8 +123,4 @@
     padding: 6px;
   }
 
-  #shops {
-    margin-top: 50px;
-    height: 500px;
-  }
 </style>
