@@ -29,7 +29,7 @@
         <img id="loginImg" src="../assets/img/erweima.png"/>
       </template>
       <br/>
-      <span id="footer">
+      <span class="myFooter">
         增值电信业务许可证 : 沪B2-20150033 | 沪ICP备 09007032 | 上海工商行政管理 Copyright ©2008-2018
         上海拉扎斯信息科技有限公司, All Rights Reserved.<br>
         <img style="width: 70px" src="../assets/img/picp_bg.e373b3.jpg"/>
@@ -111,13 +111,5 @@
     width: 210px;
   }
 
-  #footer {
-    display: inline-block;
-    font-size: 12px;
-    font-family: "Microsoft YaHei UI", serif;
-    color: #929292;
-    text-align: center;
-    margin-top: 60px;
-    line-height: 40px;
-  }
+
 </style>

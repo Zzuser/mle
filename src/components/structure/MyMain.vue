@@ -58,6 +58,9 @@
       </el-card>
 
     </div>
+    <div id="loadMore">
+      <a href="#">加载更多...</a>
+    </div>
   </div>
 </template>
 
@@ -118,9 +121,14 @@
 
   }
 
-  .category-item {
+  #category .category-item {
     display: inline-block;
     padding: 6px;
+  }
+  #loadMore{
+    margin: 15px;
+    font-size: 18px;
+    text-align: center;
   }
 
 </style>
