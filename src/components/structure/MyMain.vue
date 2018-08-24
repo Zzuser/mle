@@ -42,7 +42,7 @@
           </el-col>
           <el-col :span="22">
             <div>
-              <a class="category-item" v-for="o in 20" :key="o">快餐便当</a>
+              <a href="#" class="category-item" v-for="o in 20" :key="o">快餐便当</a>
             </div>
           </el-col>
         </el-row>
@@ -50,8 +50,8 @@
     </div>
     <div id="shops">
       <el-card id="shopsCard" class="box-card">
-        <el-row>
-          <el-col :span="6" v-for="o in 28" :key="o">
+        <el-row v-for="r in 4" :key="r">
+          <el-col :span="6" v-for="c in 4" :key="c">
             <shop-card></shop-card>
           </el-col>
         </el-row>
